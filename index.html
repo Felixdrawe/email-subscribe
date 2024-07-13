@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Email Subscribe</title>
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+      <!-- Card -->
+      <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row">
+          <!-- Image -->
+          <img
+            src="./images/image.jpg"
+            alt="image"
+            class="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-[1.03] duration-200" />
+          <!--Contnent-->
+          <div class="p-6 md:p-12 grid gap-6">
+            <h2
+              class="font-serif text-xl font-medium text-center text-white md:text-left">
+              Get diet and fitness tips in yout inbox
+            </h2>
+            <p
+              class="text-sm text-white max-w-xs tracking-wide text-center md:text-left">
+              Eat better and exercise better. Sign up for the Diet&Fitness
+              Newsletter.
+            </p>
+            <form class="flex flex-col md:flex-row gap-5 md:a">
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="w-full rounded-md px-4 p-2 border text-sm text-zinc-400 bg-zinc-800 border-zinc-400 placeholder-gray-500 focus:placeholder-transparent focus:border-lime-500 focus:ring-0 focus:outline-none text-center md:text-left placeholder:text-center placeholder:md:text-left" />
+              <button
+                class="bg-lime-500 text-zinc-800 text-sm rounded-md px-4 p-2 hover:bg-lime-700 duration-300 hover:text-zinc-300">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
